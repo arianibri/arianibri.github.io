@@ -12,27 +12,24 @@
     <p>$9.95 plus tax</p>
     <br />
     <p>Includes Sandwiches,Snacks and Drinks</p>
-
-    <fieldset>
-      <legend>Order Information:</legend>
-      <form action="" method="post">
+    <form action="" method="get">
+      <fieldset>
+        <legend>Order Information:</legend>
         <label for="name"><strong>Name:</strong></label>
         <br />
         <input type="text" name="name" id="name" />
         <br />
         <br />
         <label for="serve"><strong>Serve</strong></label>
-        <br>
+        <br />
         <input type="radio" name="serve" id="here" value="Here" />
         <label for="here">Here</label>
         <br />
         <input type="radio" name="serve" id="togo" value="To Go" />
         <label for="togo">To Go</label>
-      </form>
-    </fieldset>
-    <fieldset>
-      <legend>Sandwiches</legend>
-      <form action="" method="post">
+      </fieldset>
+      <fieldset>
+        <legend>Sandwiches</legend>
         <label for="day"><strong>Monday</strong></label>
         <br />
         <input type="radio" name="Monday" id="tomatomoz" />
@@ -84,11 +81,9 @@
         <label for="gluten">Gluten Free Bread (75c extra)</label>
         <br />
         <br />
-      </form>
-    </fieldset>
-    <fieldset>
-      <legend>Snack</legend>
-      <form action="" method="post">
+      </fieldset>
+      <fieldset>
+        <legend>Snack</legend>
         <label for="snacks"><strong>Snacks</strong></label>
         <br />
         <input type="radio" name="snacks" id="apple" />
@@ -100,11 +95,9 @@
         <input type="radio" name="snacks" id="chips" />
         <label for="chips">Potato Chips</label>
         <br />
-      </form>
-    </fieldset>
-    <fieldset>
-      <legend>Drink</legend>
-      <form action="" method="post">
+      </fieldset>
+      <fieldset>
+        <legend>Drink</legend>
         <label for="drinks"><strong>Drinks</strong></label>
         <br />
         <select name="drinks" id="drinks">
@@ -122,10 +115,8 @@
         <br />
         <input type="checkbox" name="large" id="large" />
         <label for="large">Large drink(75c extra)</label>
-      </form>
-    </fieldset>
-    <br />
-    <form action="" method="post">
+      </fieldset>
+      <br />
       <input type="submit" name="Order" id="Order" value="Place Order" />
       <input type="reset" name="reset" id="reset" value="New Order" />
     </form>
