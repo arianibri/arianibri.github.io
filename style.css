@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  width: 100vw;
+  height: 50px;
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar li {
+  display: inline;
+}
+
+aside {
+    display: flex;
+    width: 30vw;
+    height: 90vh;
+}
+
+main{
+    display: inline;
+    display: flex;
+    width: 70vw;
+    height: 90vh;
+}
+
+footer{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+}
