@@ -11,8 +11,6 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #f5f5f5;
     color: #333;
-    background-image: url('../assets/th-g0\(39\).jpg');
-  background-repeat: no-repeat;
 }
 
 .servicesHeader {
@@ -91,3 +89,48 @@ body {
     font-weight: bold;
     margin-right: 6px;
 }
+
+#servicesbg{
+    background-image: url('../assets/th-g0\(39\).jpg');
+    background-repeat: no-repeat;
+}
+
+#service3Btn {
+            background-color: blue; /* Button color */
+            color: white;           /* Text color */
+            padding: 10px 20px;     /* Button size */
+            font-size: 16px;        /* Text size */
+            cursor: pointer;       /* Pointer on hover */
+            border: 2px solid rgb(0 , 0, 255);
+            border-radius: 25px;     /* Rounded corners */
+        }
+
+        #service3Btn:hover {
+            background-color: darkblue; /* Darker blue on hover */
+        }
+#service2Btn {
+            background-color: blue; /* Button color */
+            color: white;           /* Text color */
+            padding: 10px 20px;     /* Button size */
+            font-size: 16px;        /* Text size */
+            cursor: pointer;       /* Pointer on hover */
+            border: 2px solid rgb(0 , 0, 255);
+            border-radius: 25px;     /* Rounded corners */
+        }
+
+        #service2Btn:hover {
+            background-color: darkblue; /* Darker blue on hover */
+        }
+#service1Btn {
+            background-color: blue; /* Button color */
+            color: white;           /* Text color */
+            padding: 10px 20px;     /* Button size */
+            font-size: 16px;        /* Text size */
+            cursor: pointer;       /* Pointer on hover */
+            border: 2px solid rgb(0 , 0, 255);
+            border-radius: 25px;     /* Rounded corners */
+        }
+
+        #service1Btn:hover {
+            background-color: darkblue; /* Darker blue on hover */
+        }
